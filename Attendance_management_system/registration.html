@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>registration</title>
+<link rel="stylesheet" href="style.css"/>
+<style>
+#register {border: 3px solid black;
+     border-radius:10px;	
+     padding-top:2%;
+	 padding-bottom:2%;
+	 padding-left:17%;
+   
+	margin-top:2%;
+    margin-bottom:2%;
+	margin-left:25%;
+	margin-right:25%;
+	
+
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="header">
+<h1 >Attendance Management System</h1>
+
+</div>
+
+<div id="navbar">
+<UL>
+<LI><a href="index.html">HOME</a></LI>
+<LI><a href="registration.html">REGISTER</a></LI>
+<LI><a HREF="about.html">ABOUT US</a></LI>
+<LI><a href="contact.html">CONTACT US</a></LI>
+</UL>
+</div>
+<h1 align="center">Registration </h1>
+<div id=register>
+<form action="connect.php" method="post">
+First name :
+<br>
+  <input type="text" name="firstname">
+ <br>
+   Last name :<br>
+  <input type="text" name="lastname"><br>
+ Enter email : <br><input type="email" name="email"><br>
+Enter id : <br><input type="text" name="id"><br>
+ Enter password :<br> <input type="password" name="password"><br>
+ Enter type of log in :<br>
+   <input type="radio" name="type" value="student" checked> student<br>
+  <input type="radio" name="type" value="teacher"> teacher<br>
+  <input type="radio" name="type" value="admin"> admin<br><br>
+ Gender<select name="gender">
+  <option value="male">male</option>
+  <option value="female">female</option>
+<option value="other">other</option>
+</select><br><br><br>
+ <input type="submit">
+ <input type="reset">
+</form>
+</div>
+
+
+<div id="footer">
+&copy; 2018-<?php echo date('d.m.Y'); ?> copyright by UPENDRA KUMAR
+<UL>
+<LI><a href="index.html">Help</a></LI>
+<LI><a HREF="index.html">Mail us</a></LI>
+<LI><a href="index.html">Your ideas</a></LI>
+</UL>
+</div>
+
+</body>
+</html>
+</body>

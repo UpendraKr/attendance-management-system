@@ -1,0 +1,83 @@
+body{
+	background-color:#9c9f84;
+	font-family:verdana;
+	font-size:14px;
+}
+#header{
+	border-radius:5px;
+	background-color:#5c755e;
+	border:0px solid;
+	margin-top:0px;
+	margin-bottom:0px
+	font-size: 20px;
+	color:red;
+	text-align:center;
+}
+
+#navbar Ul{
+    background-color:black;
+	padding:5px;
+     	
+	 border-radius:5px;	
+	 text-align:center;
+    font-size:15px;
+}
+
+#navbar UL LI{
+display: inline;
+}
+#navbar UL LI a{
+
+	background-color:black;
+	color:white;
+	padding:5px;
+    font-size:20px;
+}
+#navbar UL LI a:hover{
+	
+	background-color:white;
+	color:black;
+}
+
+#img{ 
+	 float:right;
+	width:50%;
+	margin-top:0px;
+	margin-bottom:10px;
+  border-radius:5px;	
+     margin-right:10px;
+	margin-left:10px;
+}
+
+#login{
+		 float:left;
+	width:45%;
+	margin-top:0px;
+	margin-bottom:10px;
+  border-radius:5px;	
+     margin-right:10px;
+	margin-left:10px;
+	
+	
+	
+}
+
+#footer{
+	background-color:#041c40;
+	color:red;
+	font-family:vergiogana;
+	font-size:90%;
+	 border-radius:5px;	
+	 padding:15px;
+	margin:10px;
+	clear:both;
+}
+#footer UL{
+	margin:10px;
+	border-radius:5px;	
+	text-align:center;
+    font-size:20px;
+}
+#footer UL LI{
+display: inline;
+}
